@@ -4,7 +4,7 @@ PostgreSQL Roles DDL script - show role DDL with objects permissions and linked 
 
 ## Installation
 
-Extract sript files (see [Releases](https://github.com/Azmodey/PGRolesDDL/releases) page)
+Extract script files (see [Releases](https://github.com/Azmodey/PGRolesDDL/releases) page)
 ```
 # tar xzf PGRolesDDL-<version>.tar.gz
 ```
