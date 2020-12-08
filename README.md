@@ -8,6 +8,8 @@ Databases:
 Name         oid     
 postgres     14187   
 appdb        16785   
+collectd     16799   
+apptest      26064   
 
 Role list:
 ----------------------------------------------------------
