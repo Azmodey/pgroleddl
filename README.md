@@ -14,7 +14,9 @@ Install python3 library psycopg2:
 ```
 
 ## Using
+```
 python3 ./PGRolesDDL.py
+```
 
 ## Sample output
 ```
