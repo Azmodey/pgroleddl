@@ -10,8 +10,11 @@ Extract sript files (see [Releases](https://github.com/Azmodey/PGRolesDDL/releas
 
 Install python3 library psycopg2:
 ```
-pip install psycopg2
+# pip install psycopg2
 ```
+
+## Using
+python3 ./PGRolesDDL.py
 
 ## Sample output
 ```
