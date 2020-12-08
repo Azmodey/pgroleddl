@@ -1,5 +1,5 @@
 # PGRolesDDL
-PostgreSQL Roles DDL script - show role DDL with objects permissions and linked roles.
+PostgreSQL Roles DDL script - show role DDL with objects grants and linked roles.
 
 
 ## Installation
