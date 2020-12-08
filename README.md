@@ -2,7 +2,7 @@
 PostgreSQL Roles DDL script - show role DDL with objects permissions and linked roles
 
 ## Sample output
-
+```
 ------------ Role 'app' DDL ------------
 
 -- DROP ROLE app;
@@ -56,3 +56,4 @@ GRANT SELECT ON TABLE jit.t_jit2 TO role_jit2 WITH GRANT OPTION;
 
 
 ---------------------------------------------------------
+```
