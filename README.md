@@ -19,7 +19,6 @@ backup                         25175    True     False
 monitoring                     16833    True     False    
 postgres                       10       True     True     
 rep_user                       37271    True     False    
-temboard                       26732    True     False    
 pg_execute_server_program      4571     False    False    
 pg_monitor                     3373     False    False    
 pg_read_all_settings           3374     False    False    
