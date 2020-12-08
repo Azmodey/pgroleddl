@@ -1,6 +1,18 @@
 # PGRolesDDL
 PostgreSQL Roles DDL script - show role DDL with objects permissions and linked roles
 
+## Installation
+
+Extract sript files (see [Releases](https://github.com/Azmodey/PGRolesDDL/releases) page)
+```
+# tar xzf PGRolesDDL-<version>.tar.gz
+```
+
+Install python3 library psycopg2:
+```
+pip install psycopg2
+```
+
 ## Sample output
 ```
 Databases:
