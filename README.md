@@ -1,5 +1,8 @@
 # PGRolesDDL
+
 PostgreSQL Roles DDL script - show role DDL with objects grants and linked roles.
+
+The script is created to get the DDL of the selected role, its objects in all databases and its associated roles. Linked roles are listed separately, with their objects and DDL. Own parser of ACL rights to objects. The script is tested on PostgreSQL 12.
 
 
 ## Installation
