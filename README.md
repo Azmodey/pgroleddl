@@ -24,7 +24,7 @@ Change PGRolesDDLsettings.py for PostgreSQL connection setting - local or remote
 
 ## Using
 ```
-python3 ./PGRolesDDL.py
+# python3 ./PGRolesDDL.py
 ```
 
 
