@@ -7,7 +7,7 @@ The script is created to get the DDL of the selected role, its objects in all da
 
 ## Installation
 
-Install python3 library psycopg2 from root user:
+Install python3 library psycopg2:
 ```
 # pip install psycopg2
 ```
