@@ -24,7 +24,7 @@ Change **pgroleddl_conf.py** for PostgreSQL connection setting - local or remote
 
 ## Using
 ```
-# python3 ./pgroleddl.py
+$ python3 ./pgroleddl.py
 ```
 When launched, the script displays a list of available databases and a list of roles with their main attributes (Login, Superuser).
 
