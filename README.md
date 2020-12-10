@@ -1,15 +1,15 @@
-# PGRolesDDL
+# PGRoleDDL
 
-PostgreSQL Roles DDL script - show role DDL with objects grants and linked roles.
+PostgreSQL Role DDL script - show role DDL with objects grants and linked roles.
 
-The script is created to get the DDL of the selected role, its objects in all databases and its associated roles. Linked roles are listed separately, with their objects and DDL. Own parser of ACL rights to objects. The script is tested on PostgreSQL 12.
+The script is created to get the DDL of the selected role, its objects in all databases and its associated roles. Linked roles are listed separately, with their objects and DDL. Own parser of ACL (Access Control List) rights to objects. The script is tested on PostgreSQL 12.
 
 
 ## Installation
 
-Extract script files (see [Releases](https://github.com/Azmodey/PGRolesDDL/releases) page)
+Extract script files (see [Releases](https://github.com/Azmodey/pgroleddl/releases) page)
 ```
-# tar xzf PGRolesDDL-<version>.tar.gz
+# tar xzf pgroleddl-<version>.tar.gz
 ```
 
 Install python3 library psycopg2:
@@ -19,13 +19,14 @@ Install python3 library psycopg2:
 
 ## Setup
 
-Change PGRolesDDLsettings.py for PostgreSQL connection setting - local or remote.
+Change **pgroleddl_conf.py** for PostgreSQL connection setting - local or remote.
 
 
 ## Using
 ```
-# python3 ./PGRolesDDL.py
+# python3 ./pgroleddl.py
 ```
+When launched, the script displays a list of available databases and a list of roles with their main attributes (connect, superuser).
 
 
 ## Sample output

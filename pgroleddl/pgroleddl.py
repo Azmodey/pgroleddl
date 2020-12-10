@@ -1,6 +1,6 @@
 import os
 import psycopg2             # pip install psycopg2
-import PGRolesDDLsettings
+import pgroleddl_conf
 
 #
 ddl_array = []      # string array for DDL records
@@ -22,7 +22,7 @@ def make_ddl(schema_name, object_name, object_type, object_owner, grantee, privs
         grant_str = "GRANT "+privs+" ON "+object_type.upper()+" "+schema_name+"."+object_name+" TO "+grantee+";"
         ddl_array.append(grant_str)
         # print("DDL: [" + grant_str + "]")
-
+        
     if privswgo:
         grant_str = "GRANT "+privswgo+" ON "+object_type.upper()+" "+schema_name+"."+object_name+" TO "+grantee+" WITH GRANT OPTION;"
         ddl_array.append(grant_str)
@@ -386,11 +386,11 @@ GRANT role_jit2 TO app;
 if __name__ == "__main__":
 
     # from settings
-    pg_user = PGRolesDDLsettings.pg_user
-    pg_password = PGRolesDDLsettings.pg_password
-    pg_host = PGRolesDDLsettings.pg_host
-    pg_port = PGRolesDDLsettings.pg_port
-    pg_database = PGRolesDDLsettings.pg_database
+    pg_user = pgroleddl_conf.pg_user
+    pg_password = pgroleddl_conf.pg_password
+    pg_host = pgroleddl_conf.pg_host
+    pg_port = pgroleddl_conf.pg_port
+    pg_database = pgroleddl_conf.pg_database
 
     
     try:
