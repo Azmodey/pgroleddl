@@ -7,15 +7,15 @@ The script is created to get the DDL of the selected role, its objects in all da
 
 ## Installation
 
-Extract script files (see [Releases](https://github.com/Azmodey/pgroleddl/releases) page)
-```
-# tar xzf pgroleddl-<version>.tar.gz
-```
-
-Install python3 library psycopg2:
+Install python3 library psycopg2 from root user:
 ```
 # pip install psycopg2
 ```
+Extract script files (see [Releases](https://github.com/Azmodey/pgroleddl/releases) page)
+```
+$ tar xzf pgroleddl-<version>.tar.gz
+```
+
 
 ## Setup
 
