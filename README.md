@@ -1,4 +1,4 @@
-# PGRoleDDL
+## PGRoleDDL
 
 PostgreSQL Role DDL script - show role DDL with objects grants and linked roles.
 
